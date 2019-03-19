@@ -1,0 +1,6 @@
+<!--components/navi/navi.wxml-->
+<view>
+  <image src="{{latest? disLeftSrc:leftSrc}}"/>
+  <text>{{title}}</text>
+  <image src="{{first?disLeftSrc:rightSrc}}"/>
+</view>
