@@ -23,7 +23,7 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onLedt:function(event){
+    onLeft:function(event){
       if(!this.properties.latest){
         this.triggerEvent('left',{},{})
       }
